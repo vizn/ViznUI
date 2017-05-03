@@ -30,5 +30,7 @@ SN.snalert()
 
 Toa.loadPage('正在加载')
 
+Toa.loadPage(0) //取消加载
+
 Toa.loadUrl(window.loaction.href,'正在加载')
 ```

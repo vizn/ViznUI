@@ -11,7 +11,7 @@ $ npm install --save viznui
 ## Use as you would anything else:
 
 ```
-import {Dialog, Toast} from './'
+import {Dialog, Toast} from 'viznui'
 
 const SN = new Dialog()
 const Toa = new Toast()

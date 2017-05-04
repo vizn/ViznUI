@@ -1,6 +1,6 @@
 {
   "name": "viznui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "General UI library ES6",
   "main": "index.js",
   "scripts": {

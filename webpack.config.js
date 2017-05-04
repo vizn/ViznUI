@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname);
-var APP_PATH = path.resolve(ROOT_PATH, 'src');
+var APP_PATH = path.resolve(ROOT_PATH, 'lib');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 var devtool = 'eval-source-map';
 var plugins = [
@@ -41,7 +41,7 @@ module.exports= {
     ]
   },
 
-  devtool: devtool, 
+  devtool: devtool,
 
   devServer: {
    compress: true, // 启用Gzip压缩

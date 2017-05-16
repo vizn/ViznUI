@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./dist/vizn.min.js');
+module.exports = require('./lib');

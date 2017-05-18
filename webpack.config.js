@@ -21,7 +21,7 @@ if (process.argv.indexOf('-p') > -1) {
   devtool = false;
 }
 module.exports= {
-  entry:  path.resolve(APP_PATH, 'example.js'),
+  entry:  process.argv.indexOf('-p') > -1 ?path.resolve(APP_PATH, 'index.js'):path.resolve(APP_PATH, 'example.js'),
   output: {
     path: BUILD_PATH,
     filename: 'vizn.min.js'
@@ -48,7 +48,7 @@ module.exports= {
    historyApiFallback: true, // 为404页启用多个路径
    hot: true, // 模块热更新，配置HotModuleReplacementPlugin
    https: false, // 适用于ssl安全证书网站
-   noInfo: true, // 只在热加载错误和警告
+   noInfo: false, // 只在热加载错误和警告
    // ...
  },
 

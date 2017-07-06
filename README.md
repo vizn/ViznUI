@@ -1,4 +1,4 @@
-# ViznUI v1.0.4
+# ViznUI v1.2.3
 
 ## Installation
 

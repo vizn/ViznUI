@@ -1,4 +1,4 @@
-# ViznUI v1.2.3
+# ViznUI v1.2.5
 
 ## Installation
 
@@ -13,24 +13,22 @@ $ npm install --save viznui
 ```
 import {Dialog, Toast} from 'viznui'
 
-const SN = new Dialog()
-const Toa = new Toast()
 
-SN.snconfirm('标题', '取消', function(){
-  SN.snalert('已取消')
+Dialog.snconfirm('标题', '取消', function(){
+  Dialog.snalert('已取消')
 }, '确认', function(){
-  SN.snalert('已确认')
+  Dialog.snalert('已确认')
 })
 
-SN.snisok('标题', function(){
-  SN.snalert('已确认')
+Dialog.snisok('标题', function(){
+  Dialog.snalert('已确认')
 })
 
-SN.snalert()
+Dialog.snalert()
 
-Toa.loadPage('正在加载')
+Toast.loadPage('正在加载')
 
-Toa.loadPage(0) //取消加载
+Toast.loadPage(0) //取消加载
 
-Toa.loadUrl(window.loaction.href,'正在加载')
+Toast.loadUrl(window.loaction.href,'正在加载')
 ```

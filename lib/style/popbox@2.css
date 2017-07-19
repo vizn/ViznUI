@@ -90,7 +90,7 @@ to {
 .btn-sn-b {
 	height:80px;
 	line-height:80px;
-	font-size:32PX;
+	font-size:32px;
 	text-shadow:-1PX -1PX 0 #D25000;
 	border-radius:3PX;
 	color:#fff;
@@ -102,7 +102,7 @@ to {
 .btn-sn-c {
 	height:80px;
 	line-height:80px;
-	font-size:32PX;
+	font-size:32px;
 	text-shadow:-1PX -1PX 0 #024CAB;
 	border-radius:3PX;
 	color:#fff;
@@ -118,7 +118,7 @@ to {
 .btn-sn-d {
 	height:80px;
 	line-height:80px;
-	font-size:32PX;
+	font-size:32px;
 	text-shadow:-1PX -1PX 0 #FFE28E;
 	border-radius:3PX;
 	color:#fff;
@@ -132,7 +132,7 @@ to {
 .btn-sn-e {
 	height:80px;
 	line-height:80px;
-	font-size:32PX;
+	font-size:32px;
 	border-radius:3PX;
 	color:#fff;
 	background:-webkit-gradient(linear, 0% 0, 0% 100%, from(#CBCBCB), to(#9A9A9A));
@@ -141,7 +141,7 @@ to {
 }
 .btn-sn-f {
 	display:inline-block;
-	padding:0 16PX;
+	padding:0 16px;
 	height:58px;
 	line-height:58px;
 	font-size:28px;
@@ -199,7 +199,7 @@ to {
 	text-align:center;
 }
 .title-sub-ui-a {
-	font-size:32PX;
+	font-size:32px;
 	padding-bottom:10px;
 }
 .box-sn-a {
@@ -216,8 +216,8 @@ to {
 	position:absolute;
 	top:43%;
 	right:0;
-	width:16PX;
-	height:16PX;
+	width:16px;
+	height:16px;
 	border:#CAB28C solid;
 	border-width:2PX 2PX 0 0;
 	-webkit-transform:rotate(45deg);
@@ -253,10 +253,10 @@ to {
 .touch-pages .page-select .copy-select:after {
 	content:' ';
 	position:absolute;
-	top:16PX;
+	top:16px;
 	right:20px;
-	width:16PX;
-	height:16PX;
+	width:16px;
+	height:16px;
 	border:#999 solid;
 	border-width:2PX 2PX 0 0;
 	-webkit-transform:rotate(135deg);
@@ -288,7 +288,7 @@ a:hover{text-decoration:none;}
 	color:#fff;
 	padding:40px 0;
 	text-align:center;
-	font-size:36PX;
+	font-size:36px;
 }
 #popinner .btn {
 	width:48%;
@@ -301,7 +301,7 @@ margin-right:4%;
     -webkit-border-radius:20px;
     background-color:rgba(0,0,0,.7);
     color:#ccc;
-    font-size:24PX;
+    font-size:24px;
     height:160px;
     left:120px;
     line-height:160px;

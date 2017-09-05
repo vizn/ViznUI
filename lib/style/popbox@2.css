@@ -46,7 +46,7 @@ to {
 	background:rgba(0, 0, 0, .4);
 }
 .touch-inner-popbox {
-	position:absolute;
+	position:fixed;
 	width:70%;
 	padding:20px 0;
 	background:rgba(0, 0, 0, .7);

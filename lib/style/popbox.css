@@ -56,7 +56,7 @@ animation-delay:.0000000000001s;
 	background:rgba(0, 0, 0, .4);
 }
 .touch-inner-popbox {
-	position:absolute;
+	position:fixed;
 	width:70%;
 	padding:10px 0;
 	background:rgba(0, 0, 0, .7);
